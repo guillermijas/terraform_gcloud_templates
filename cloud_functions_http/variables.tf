@@ -1,4 +1,4 @@
-variable "cloud_function_name" { default = "terraform-cloud-function" }
+variable "cloud_function_name" { default = "terraform-cloud-function-http" }
 variable "cloud_function_entry_point" { default = "main" }
 variable "region" { default = "europe-west1" }
 variable "zone" { default = "europe-west1-b" }
